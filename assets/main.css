@@ -1,0 +1,195 @@
+/* Main colors of the page */
+/* Font imported from Google Fonts */
+body {
+  background-color: #353535;
+  padding-top: 20px;
+}
+/* Header -> Mobile Menu */
+.my-toggle-menu {
+  background-color: #EDF5FC;
+}
+.my-header .navbar-toggle .icon-bar {
+  background-color: #7DC95E;
+}
+/* Header -> Navigation bar */
+.my-header {
+  background-color: #7DC95E;
+  border: 0;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+.navbar-header .my-brand {
+  font-family: 'Righteous', cursive;
+  font-size: 55px;
+  color: #EDF5FC;
+}
+.navbar-header .my-brand:hover {
+  color: #EDF5FC;
+}
+/* Header -> Menu/Navigation */
+.navbar-default .navbar-nav {
+  margin-right: 5px;
+}
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  border-bottom: 4px solid #EDF5FC;
+}
+#my-nav > ul > li > a {
+  background-color: transparent;
+  color: #EDF5FC;
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
+  padding-bottom: 3px;
+  padding: 3px 3px;
+  margin: 15px 7px;
+}
+#my-nav > ul > li > a:hover {
+  color: #353535;
+  border-bottom: 4px solid #353535;
+}
+/* Top/About Section -> Photo */
+.my-image {
+  display: block;
+}
+.my-image > img {
+  border-radius: 50%;
+  border: 10px solid #7DC95E;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/* Main Content -> Jumbotron */
+.my-jumbo {
+  background-color: #7F7E76;
+  margin-bottom: 0;
+}
+.container .portfolio-jumbo {
+  background-color: #686861;
+  border-radius: 0px;
+  margin-bottom: 0;
+  margin-top: -20px;
+  padding-top: 5px;
+}
+.container .contact-jumbo {
+  background-color: #7F7E76;
+  margin-top: -20px;
+  padding-top: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+/* Main Content -> "About" (Who am I) section */
+#top {
+  padding-top: 50px;
+}
+#top > h1 {
+  color: #fff;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  margin-bottom: 22px;
+}
+#top > p {
+  color: #EDF5FC;
+}
+/* Main Content -> "Portfolio" section */
+#portfolio > h1 {
+  color: #EDF5FC;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.my-thumb {
+  background-color: #686861;
+  border: 0;
+}
+.my-thumb > img,
+.my-thumb > a > img {
+  border: 3px solid #7DC95E;
+  border-radius: 7px;
+}
+/* Main Content -> "Contact" section */
+#contact {
+  background-color: #7F7E76;
+}
+#contact > h1 {
+  color: #EDF5FC;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.my-form > input {
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+.my-form > textarea {
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+.my-send-button {
+  background-color: #7DC95E;
+  border: 1px solid #7DC95E;
+  border-radius: 4px;
+  color: #EDF5FC;
+  padding: 10px 15px;
+  outline: none;
+}
+.my-send-button:hover {
+  background-color: #72B756;
+  border: 1px solid #72B756;
+}
+.my-send-button:focus {
+  background-color: #72B756;
+  border: 1px solid #72B756;
+}
+.my-send-button:active {
+  background-color: #94D27B;
+  border: 1px solid #94D27B;
+}
+.say-hello {
+  padding-top: 25px;
+}
+.say-hello > p {
+  color: #EDF5FC;
+}
+/* Last section before the footer */
+.last-section {
+  background-color: #62BEC1;
+  padding-bottom: 20px;
+}
+/* Footer -> Social inks section */
+.social > h2 {
+  color: #EDF5FC;
+  font-family: 'Righteous', cursive;
+}
+.social > a:hover,
+.social > a:active {
+  text-decoration: none;
+}
+.social > a > .fa-3 {
+  color: #EDF5FC;
+  font-size: 3.5em;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.social > a > .fa-3:hover {
+  color: white;
+}
+/* Footer -> "About the Page" section */
+.creator > h2 {
+  color: #EDF5FC;
+  font-family: 'Righteous', cursive;
+}
+.creator > h3 {
+  color: #EDF5FC;
+}
+/* Footer -> Copyright section */
+.copyright {
+  background-color: #7DC95E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.copyright > p {
+  color: white;
+  font-size: 15px;
+  margin: auto;
+}
