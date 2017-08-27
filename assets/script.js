@@ -1,8 +1,16 @@
 $(document).ready(function() {
 
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
   $(".navbar-nav li").click(function() {
     $(".navbar-nav li").removeClass("active");
     $(this).addClass("active");
+  });
+
+  $('.my-form').on('submit', function(event) {
+    event.preventDefault();
   });
 
   $('a[href*="#"]')
