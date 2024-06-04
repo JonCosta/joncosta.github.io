@@ -3,244 +3,246 @@
 @font-color: #EDF5FC;
 @jumbo-color: #7F7E76;
 @contact-color: #7F7E76;
-@low-section-color: #62BEC1;
-@main-color: #7DC95E;
+@low-section-color: #3ECB85;
+@main-color: #3ECB85;
 @portfolio-color: #686861;
 /* Font imported from Google Fonts */
 @title-font: 'Righteous', cursive;
 @title-size: 50px;
 
 body {
-  background-color: @bg-color;
-  padding-top: 20px;
+    background-color: @bg-color;
+    padding-top: 20px;
 }
 
 /* Header -> Mobile Menu */
 .my-toggle-menu {
-  background-color: @font-color;
-  // border: 4px solid @main-color;
+    background-color: @font-color;
+    // border: 4px solid @main-color;
 }
 
 .my-header .navbar-toggle .icon-bar {
-  background-color: @main-color;
+    background-color: @main-color;
 }
 
 /* Header -> Navigation bar */
 .my-header {
-  background-color: @main-color;
-  border: 0;
-  padding-bottom: 13px;
-  padding-top: 13px;
+    background-color: @main-color;
+    border: 0;
+    padding-bottom: 13px;
+    padding-top: 13px;
 }
 
 .navbar-header .my-brand {
-  font-family: @title-font;
-  font-size: 55px;
-  color: @font-color;
+    font-family: @title-font;
+    font-size: 55px;
+    color: @font-color;
 }
 
 .navbar-header .my-brand:hover {
-  color: @font-color;
+    color: @font-color;
 }
 
 /* Header -> Menu/Navigation */
 .navbar-default .navbar-nav {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
-.navbar-default .navbar-nav > .active > a {
-  background-color: transparent;
-  border-bottom: 4px solid @font-color;
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    border-bottom: 4px solid @font-color;
 }
 
-#my-nav > ul > li > a {
-  background-color: transparent;
-  color: @font-color;  
-  font-family: @title-font;
-  font-size: 25px;
-  padding-bottom: 3px;
-  padding: 3px 3px;
-  margin: 15px 7px;
+#my-nav>ul>li>a {
+    background-color: transparent;
+    color: @font-color;
+    font-family: @title-font;
+    font-size: 25px;
+    padding-bottom: 3px;
+    padding: 3px 3px;
+    margin: 15px 7px;
 }
 
-#my-nav > ul > li > a:hover {
-  color: @bg-color;
-  border-bottom: 4px solid @bg-color;
+#my-nav>ul>li>a:hover {
+    color: @bg-color;
+    border-bottom: 4px solid @bg-color;
 }
 
 /* Top/About Section -> Photo */
 .my-image {
-  display: block;
+    display: block;
 }
 
-.my-image > img {
-  border-radius: 50%;
-  border: 10px solid @main-color;
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  max-width: 100%;
+.my-image>img {
+    border-radius: 50%;
+    border: 10px solid @main-color;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 /* Main Content -> Jumbotron */
 .my-jumbo {
-  background-color: @jumbo-color;
-  margin-bottom: 0;
+    background-color: @jumbo-color;
+    margin-bottom: 0;
 }
 
 .container .portfolio-jumbo {
-  background-color: @portfolio-color;
-  border-radius: 0px;
-  margin-bottom: 0;
-  margin-top: -20px;
-  padding-top: 20px;
+    background-color: @portfolio-color;
+    border-radius: 0px;
+    margin-bottom: 0;
+    margin-top: -20px;
+    padding-top: 20px;
 }
 
 .container .contact-jumbo {
-  background-color: @contact-color;
-  margin-top: -20px;
-  padding-top: 20px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+    background-color: @contact-color;
+    margin-top: -20px;
+    padding-top: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 /* Main Content -> "About" (Who am I) section */
 #top {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
-#top > h1 {
-  color: #fff;
-  font-family: @title-font;
-  font-size: @title-size;
-  margin-bottom: 22px;
+#top>h1 {
+    color: #fff;
+    font-family: @title-font;
+    font-size: @title-size;
+    margin-bottom: 22px;
 }
 
-#top > p {
-  color: @font-color;
+#top>p {
+    color: @font-color;
 }
 
 /* Main Content -> "Portfolio" section */
-#portfolio > h1 {
-  color: @font-color;
-  font-family: @title-font;
-  font-size: @title-size;
-  margin-bottom: 25px;
+#portfolio>h1 {
+    color: @font-color;
+    font-family: @title-font;
+    font-size: @title-size;
+    margin-bottom: 25px;
 }
 
 .my-thumb {
-  background-color: @portfolio-color;
-  border: 0;
+    background-color: @portfolio-color;
+    border: 0;
 }
 
-.my-thumb > img,
-.my-thumb > a > img {
-  border: 3px solid @main-color;
-  border-radius: 7px;
+.my-thumb>img,
+.my-thumb>a>img {
+    border: 3px solid @main-color;
+    border-radius: 7px;
 }
 
 /* Main Content -> "Contact" section */
 #contact {
-  background-color: @contact-color;
+    background-color: @contact-color;
 }
 
-#contact > h1 {
-  color: @font-color;
-  font-family: @title-font;
-  font-size: @title-size;
-  margin-bottom: 25px;
+#contact>h1 {
+    color: @font-color;
+    font-family: @title-font;
+    font-size: @title-size;
+    margin-bottom: 25px;
 }
 
-.my-form > input {
-  margin-bottom: 20px;
-  opacity: 0.7;
+.my-form>input {
+    margin-bottom: 20px;
+    opacity: 0.7;
 }
 
-.my-form > textarea {
-  margin-bottom: 15px;
-  opacity: 0.7;
+.my-form>textarea {
+    margin-bottom: 15px;
+    opacity: 0.7;
 }
 
 .my-send-button {
-  background-color: @main-color;
-  border: 1px solid @main-color;
-  border-radius: 4px;
-  color: @font-color;
-  padding: 10px 15px;
-  outline: none;
+    background-color: @main-color;
+    border: 1px solid @main-color;
+    border-radius: 4px;
+    color: @font-color;
+    padding: 10px 15px;
+    outline: none;
 }
 
 .my-send-button:hover {
-  background-color: #72B756;
-  border: 1px solid #72B756;
+    background-color: #72B756;
+    border: 1px solid #72B756;
 }
 
 .my-send-button:focus {
-  background-color: #72B756;
-  border: 1px solid #72B756;
+    background-color: #72B756;
+    border: 1px solid #72B756;
 }
 
 .my-send-button:active {
-  background-color: #94D27B;
-  border: 1px solid #94D27B;
+    background-color: #94D27B;
+    border: 1px solid #94D27B;
 }
 
 .say-hello {
-  padding-top: 25px;
+    padding-top: 25px;
 }
 
-.say-hello > p {
-  color: @font-color;
+.say-hello>p {
+    color: @font-color;
 }
 
 /* Last section before the footer */
 .last-section {
-  background-color: @low-section-color;
-  padding-bottom: 20px;
+    background-color: @low-section-color;
 }
 
 /* Footer -> Social inks section */
-.social > h2 {
-  color: @font-color;
-  font-family: @title-font;
+.social>h2 {
+    color: @font-color;
+    font-family: @title-font;
 }
 
-.social > a:hover,
-.social > a:active {
-  text-decoration: none;
+.social-icons>a:hover,
+.social-icons>a:active {
+    text-decoration: none;
 }
 
-.social > a > .fa-3 {
-  color: @font-color;
-  font-size: 3.5em;
-  margin-left: 3px;
-  margin-right: 3px;
+.social-icons>a>.fa-3 {
+    color: @font-color;
+    font-size: 2.5em;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
-.social > a > .fa-3:hover {
-  color: white;
+.social-icons>a>.fa-3:hover {
+    color: white;
 }
 
 /* Footer -> "About the Page" section */
 
-.creator > h2 {  
-  color: @font-color;
-  font-family: @title-font;
+.creator>h2 {
+    color: @font-color;
+    font-family: @title-font;
 }
 
-.creator > h3 {
-  color: @font-color;
+.creator>h3 {
+    color: @font-color;
+    font-size: 20px;
+    margin-top: 0px;
 }
 
 /* Footer -> Copyright section */
 .copyright {
-  background-color: @main-color;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    background-color: @main-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.copyright > p {
-  color: white;
-  font-size: 15px;
-  margin: auto;
+.copyright>p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
 }
