@@ -1,0 +1,13 @@
+{
+    "job": "Desenvolvedor Front-End",
+    "about": {
+        "title": "Sobre",
+        "description": "Apesar de ter iniciado a carreira como desenvolvedor de sistemas, descobri que meu maior interesse está na área de desenvolvimento web. Desde então foquei meu aprendizado nas diversas tecnologias voltadas para a criação de telas, sites e aplicações web."
+    },
+    "experience": {
+        "title": "Experiência"
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    }
+}

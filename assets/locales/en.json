@@ -1,0 +1,12 @@
+{
+    "job": "Front-End Developer",
+    "about": {
+        "title": "About"
+    },
+    "experience": {
+        "title": "Experiência"
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    }
+}

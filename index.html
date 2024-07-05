@@ -4,87 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon Costa - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <title>Jonathan Costa - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/tailwind-output.css">
     <link rel="stylesheet" href="./assets/main.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <nav class="navbar navbar-default navbar-fixed-top my-header" id="scroll-nav">
-        <div class="container-fluid">
+<body>
+    <div
+        class="w-full bg-gradient-to-r from-teal-950 via-cyan-800 to-teal-950 flex flex-col lg:flex-row py-6 px-6 md:py-8 md:px-16 xl:py-16 xl:px-40">
 
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed my-toggle-menu" data-toggle="collapse"
-                    data-target="#my-nav" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar my-icon-bar"></span>
-                    <span class="icon-bar my-icon-bar"></span>
-                    <span class="icon-bar my-icon-bar"></span>
-                </button>
-                <a class="navbar-brand my-brand" href="#top">Jon Costa</a>
+        <div class="md:basis-1/3 lg:fixed">
+            <div class="title">
+                <h2 class="font-title text-5xl md:text-6xl text-slate-50 font-bold">
+                    Jonathan Costa
+                </h2>
+                <h3 class="text-slate-50 my-3" data-i18n="job">
+                    Programador e Desenvolvedor Web, com interesse na área de Front End
+                </h3>
+            </div>
 
-            </div> <!-- /.navbar-header -->
-
-            <div class="collapse navbar-collapse" id="my-nav">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#top" class="my-menu-item">About</a></li>
-                    <li><a href="#portfolio" class="my-menu-item">Portfolio</a></li>
+            <div class="hidden md:block mt-1 md:mt-10">
+                <ul class="section table-of-contents">
+                    <li>
+                        <a class="text-white" href="#about" data-i18n="about.title">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-white" href="#experience" data-i18n="experience.title">
+                            Experience
+                        </a>
+                    </li>
+                    <li>
+                        <a class="text-white" href="#portfolio" data-i18n="portfolio.title">
+                            Portfolio
+                        </a>
+                    </li>
                 </ul>
+            </div>
 
-            </div> <!-- /.navbar-collapse -->
-        </div> <!-- /.container-fluid -->
-    </nav>
-
-    <div class="container">
-        <div class="jumbotron my-jumbo">
-
-            <div id="top">
-
-                <!-- <div class="my-image">
-        <img src="https://s6.postimg.org/8zb7bajwh/image.png" title="What would be me!"/>
-      </div> -->
-
-                <h1>Who am I?</h1>
-                <p>Although a graduate from the Technology in System Analysis and Development course, in Federal
-                    University of Parana, still a student at heart, always looking for ways to improve myself and my own
-                    skills. Love reading, games and coding!</p>
+            <div class="flex flex-row gap-4 md:mt-20">
+                <a class="text-white text-3xl" target="_blank"
+                    href="https://www.linkedin.com/in/jonathan-costa-3b81bb4b/">
+                    <i class="fa fa-linkedin-square fa-3 small" aria-hidden="true"></i>
+                </a>
+                <a class="text-white text-3xl" target="_blank" href="https://github.com/JonCosta">
+                    <i class="fa fa-github-square fa-3 small" aria-hidden="true"></i>
+                </a>
+                <a class="text-white text-3xl" target="_blank" href="https://codepen.io/jonjcosta/">
+                    <i class="fa fa fa-codepen fa-3 small" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
-        <div class="jumbotron portfolio-jumbo">
 
-            <div id="portfolio">
-                <h1>Portfolio</h1>
+        <div class="md:basis-2/3 ml-auto">
 
-                <div class="row">
+            <div id="about" class="section scrollspy">
+                <h5 class="font-title">
+                    About me
+                </h5>
+                <p data-i18n="about.description" class="text-slate-300">
+                    About me...
+                </p>
+            </div>
+
+            <div id="experience" class="section scrollspy">
+                <h5 class="font-title">
+                    Experience
+                </h5>
+            </div>
+
+            <div id="portfolio" class="section scrollspy">
+                <h5 class="font-title">
+                    Portfolio
+                </h5>
+
+                <div class="flex flex-wrap gap-4">
 
                     <!-- <div class="col-sm-6 col-md-4">
-          <div class="thumbnail my-thumb">
-            <a href="https://joncosta.github.io/tribute-rick-riordan/" target="_blank" data-toggle="tooltip" title="Tribute to Rick Riordan">
-              <img src="https://s6.postimg.org/3m26w8j7l/screen-tribute-riordan.png"  />
-            </a>
-          </div>
-        </div> -->
+                        <div class="thumbnail my-thumb">
+                            <a href="https://joncosta.github.io/tribute-rick-riordan/" target="_blank"
+                                data-toggle="tooltip" title="Tribute to Rick Riordan">
+                                <img src="https://s6.postimg.org/3m26w8j7l/screen-tribute-riordan.png" />
+                            </a>
+                        </div>
+                    </div> -->
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
                             <a href="https://joncosta.github.io/random-quote-generator/" target="_blank"
                                 data-toggle="tooltip" title="Random Quote Generator">
-                                <img src="https://i.imgur.com/jNf87ss.png" />
+                                <img class="rounded-sm hover:shadow-md hover:shadow-white/20"
+                                    src="https://i.imgur.com/jNf87ss.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
                             <a href="https://joncosta.github.io/local-weather/" target="_blank" data-toggle="tooltip"
                                 title="Your Local Weather">
-                                <img src="https://i.imgur.com/Rc4zBd4.png" />
+                                <img class="rounded-sm hover:shadow-md hover:shadow-white/20"
+                                    src="https://i.imgur.com/Rc4zBd4.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
@@ -93,7 +122,7 @@
                                 <img src="https://i.imgur.com/OwsdRKU.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
@@ -102,7 +131,7 @@
                                 <img src="https://i.imgur.com/8mYwQXW.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
@@ -111,7 +140,7 @@
                                 <img src="https://i.imgur.com/TnKrQy3.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
@@ -120,7 +149,7 @@
                                 <img src="https://i.imgur.com/7OBQaYa.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
@@ -129,7 +158,7 @@
                                 <img src="https://i.imgur.com/jizr8Oz.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail my-thumb">
@@ -138,58 +167,17 @@
                                 <img src="https://i.imgur.com/2OCIB7J.png" />
                             </a>
                         </div>
-                    </div> <!-- /.col-sm6.col-md-4 -->
+                    </div>
 
-                </div> <!-- /.row -->
-
-            </div> <!-- /#portfolio -->
-
-        </div> <!-- /.portfolio-jumbo -->
-    </div>
-
-    <div class="container-fluid last-section">
-
-        <div class="row">
-
-            <div class="creator col-md-4 col-xs-5 col-md-offset-1 col-xs-offset-1">
-                <h2>About this page</h2>
-                <h3>Designed and coded by Jon Costa, of course! <i class="glyphicon glyphicon-heart"></i> </h3>
-            </div>
-
-            <div class="social col-md-4 col-xs-5 col-md-offset-3 col-xs-offset-1">
-                <h2>Find me in the web</h2>
-                <div class="social-icons">
-                    <a target="_blank" href="https://www.linkedin.com/in/jonathan-costa-3b81bb4b/">
-                        <i class="fa fa-linkedin-square fa-3" aria-hidden="true"></i>
-                    </a>
-                    <a target="_blank" href="https://github.com/JonCosta">
-                        <i class="fa fa-github-square fa-3" aria-hidden="true"></i>
-                    </a>
-                    <a target="_blank" href="https://codepen.io/jonjcosta/">
-                        <i class="fa fa fa-codepen fa-3" aria-hidden="true"></i>
-                    </a>
                 </div>
 
-            </div> <!-- /.social -->
+            </div>
 
-        </div> <!-- /.row -->
+        </div>
 
-    </div> <!-- /.container -->
+    </div>
 
-    <footer class="my-footer">
-        <div class="copyright">
-            <p class="text-center">
-                <span id="current-year">2017</span>.
-                All rights served
-            </p>
-        </div> <!-- /.copyright -->
-
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="assets/script.js" type="text/javascript"></script>
-
+    <script src="./assets/script.js" type="text/javascript"></script>
 </body>
 
 </html>
